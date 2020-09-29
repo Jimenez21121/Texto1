@@ -19,7 +19,7 @@ namespace TexT1
             double aux, aux2, x;
             aux = b * b - 4 * a * c;
             aux2 = System.Math.Sqrt(aux);
-            x = -(b) + (aux2) / 2 * a;
+            x = - (b) + (aux2) / 2 * a;
 
             return x;
 

@@ -8,7 +8,7 @@ namespace TexT1
         
         static void Main(string[] args)
         {
-            int ss1 = Utils.GetMaxValue(3, -2);
+            bool ss1 = Utils.IsEven(4);
             System.Console.WriteLine(ss1);
 
         }

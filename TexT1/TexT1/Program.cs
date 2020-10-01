@@ -8,7 +8,7 @@ namespace TexT1
         
         static void Main(string[] args)
         {
-            double ss1 = Geometry.GetVectorLength3D(1.0, 1.0, 1.0);
+            int ss1 = Utils.GetMaxValue(3, -2);
             System.Console.WriteLine(ss1);
 
         }

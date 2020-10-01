@@ -21,10 +21,7 @@ namespace TexT1
             a = aux2 ; 
 
                 return a ;
-
-
-
-
+        
         }
     }
 }

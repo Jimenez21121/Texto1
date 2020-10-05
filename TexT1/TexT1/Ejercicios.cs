@@ -49,6 +49,20 @@ namespace TexT1
 
 
 
+      }
+        public static void ejercicio3(int number)
+        {
+            int i = 2;
+            while (i <= (number - 1) )
+            {
+                if (Utils.Isprime(i))
+                    System.Console.WriteLine(i);
+                i++;
+
+            }
+
+
         }
+
     }
 }

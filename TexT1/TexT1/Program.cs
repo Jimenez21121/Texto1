@@ -8,7 +8,7 @@ namespace TexT1
         
         static void Main(string[] args)
         {
-            Ejercicios.ejercicio2(10);
+            Ejercicios.ejercicio3(11);
         }
     }
 }

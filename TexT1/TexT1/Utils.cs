@@ -1,4 +1,6 @@
 ﻿
+using System.Globalization;
+
 namespace TexT1
 {
     class Utils
@@ -37,6 +39,23 @@ namespace TexT1
                 return false;
 
 
+
+
+
+        }
+        public static bool Isprime(int number)
+        { 
+            int i = 2;
+            while (i <= (number - 1))
+                if ( (i % 2) == 0);
+            return true;
+            i++;
+            {
+
+
+
+            }
+            return false;
 
 
 

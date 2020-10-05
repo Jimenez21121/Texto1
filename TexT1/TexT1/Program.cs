@@ -11,6 +11,7 @@ namespace TexT1
             bool ss1 = Utils.IsEven(4);
             System.Console.WriteLine(ss1);
 
+            Ejercicios.ejercicio1();
         }
     }
 }

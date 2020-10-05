@@ -8,10 +8,7 @@ namespace TexT1
         
         static void Main(string[] args)
         {
-            bool ss1 = Utils.IsEven(4);
-            System.Console.WriteLine(ss1);
-
-            Ejercicios.ejercicio1();
+            Ejercicios.ejercicio2(10);
         }
     }
 }

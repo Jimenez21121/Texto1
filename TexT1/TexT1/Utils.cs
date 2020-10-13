@@ -47,15 +47,14 @@ namespace TexT1
         { 
             int i = 2;
             while (i <= (number - 1))
-                if ( (i % 2) == 0);
-            return true;
-            i++;
             {
+                if ((number % i ) == 0) 
+                 return false;
+                i++;
 
-
-
+            
             }
-            return false;
+            return true;
 
 
 

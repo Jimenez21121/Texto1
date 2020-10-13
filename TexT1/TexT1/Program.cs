@@ -5,10 +5,11 @@ namespace TexT1
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
-            Ejercicios.ejercicio3(11);
-        }
+            Ejercicios.Ejercicio9();
+            
+         }  
     }
 }

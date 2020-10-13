@@ -52,17 +52,100 @@ namespace TexT1
       }
         public static void ejercicio3(int number)
         {
+            /*
             int i = 2;
-            while (i <= (number - 1) )
+            while (i <= (number - 1))
             {
+                int number = (Utils.Isprime(i));
                 if (Utils.Isprime(i))
-                    System.Console.WriteLine(i);
+                    System.Console.WriteLine(" es primo " + i);
                 i++;
+                   
+                else
+                    System.Console.WriteLine("no es primo " + i);
+                    
 
+            }*/
+        }
+        public static void ejercicio4()
+        {
+            int i = 0;
+            while (i < 100)
+            { 
+                System.Console.WriteLine(i);
+                  i++;
             }
+            
 
 
         }
+        public static void ejercicio5()
+        {
+            int i = 0;
+            while (i < 100)
+            {
+                System.Console.WriteLine(i * 3);
+                i++;
+            }
 
+
+
+        }
+        public static void ejercicio6()
+        {
+            int i = 0;
+            while (i < 100)
+            {
+                System.Console.WriteLine( (i * 3) + 1 );
+                i++;
+            }
+
+
+
+        }
+        public static void Ejercicio7()
+        {
+            int i = 0;
+            while (i < 100)
+            {
+                System.Console.WriteLine( 5 - i);
+                i++;
+            }
+
+
+
+        }
+        
+        // A ver la cosa de que esto ejercicios tratan de que los contadores vayan sumando desde
+        //en uno, en dos, tres, etc, pero también por ejemplo si son o no negativos (ejercicios 7 y 8)
+        
+        
+        public static void Ejercicio8()
+        {
+            int i = 0;
+            while (i < 100)
+            {
+                if (Utils.IsEven(i))
+                    System.Console.WriteLine(i);
+                else 
+                    System.Console.WriteLine(-i);
+                i++;
+            }
+
+
+
+        }
+        public static void Ejercicio9()
+        {
+            int a = 1;
+            int aa = 0;
+            int i = 0;
+            while (i < 100)
+            {
+                
+                i++;
+            }
+
+        }
     }
 }

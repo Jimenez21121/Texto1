@@ -135,17 +135,25 @@ namespace TexT1
 
 
         }
-        public static void Ejercicio9()
+        public static void ejercicio()
         {
-            int a = 1;
-            int aa = 0;
+            int a = 0;
+            int b = 1;
             int i = 0;
-            while (i < 100)
-            {
-                
-                i++;
-            }
 
+
+            while (i <= 100)
+            {
+                int c = a + b;// en este parte el planteamiento es el dicho arriba 0+1=1
+                a = b;      // aquí lo que hago es que el valor de b ahora sea el resultado de
+                            // la suma de a+b siendo sustituido por 1 y almacenado en b.
+                b = c;    // mientras que aquí repito lo mismo, hago que lo a ya no se ha
+                          //  0 sino que el valor de a será 1, es decir, lo que valia el sigiente
+                          // número delante de 0 que es 1.
+
+                System.Console.WriteLine(c);
+                i++;
+
+            }
         }
-    }
 }

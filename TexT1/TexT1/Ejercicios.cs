@@ -147,5 +147,15 @@ namespace TexT1
             }
 
         }
+        public static void Asterico(int count)
+        {
+            
+            for (int i = 0 ; i < count; i++)
+            {
+                Console.Write( "*" );
+                
+            }
+           
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace TexT1
 
         static void Main(string[] args)
         {
-            Ejercicios.Ejercicio9();
+            Ejercicios.Asterico(100);
             
          }  
     }

@@ -156,7 +156,6 @@ namespace TexT1
 
             }
         }
-<<<<<<< HEAD
         public static void Asterico(int count)
         {
             
@@ -168,6 +167,4 @@ namespace TexT1
            
         }
     }
-=======
->>>>>>> 1798c05bc6fb5ce9ca53cb68b358aa9f1932d776
 }
